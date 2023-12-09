@@ -7,9 +7,10 @@ import { BsFacebook, BsLinkedin, BsGithub, BsYoutube} from "react-icons/bs";
 import './style.css';
 const  ContactContainer = ()=>{
     const myData = [
-        {name:'Facebook', link:'https://www.facebook.com/codeadictor/', text:'Follow to my facebook.' },
         {name:'Linkedin', link:'https://www.linkedin.com/in/codeadictor-pranshu/', text:'Follow to my linkedin.'},
         {name:'GitHub', link:'https://github.com/codeadictor', text:'Follow to my github account.'},
+         {name:'Facebook', link:'https://codeadictor-pranshu.netlify.app', text:'Checkout my website.' },
+         {name:'Facebook', link:'https://www.facebook.com/codeadictor/', text:'Follow to my facebook.' },
         {name:'YouTube', link:'https://www.youtube.com/@Supportive_Soul', text:'Follow to my youtube channel.'},
         {name:'Email', link:'mailto:codeadictorpranshu007@gmail.com',  text:'write to me a mail'}
     ]
