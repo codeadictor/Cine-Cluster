@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './style.css';
 
-import { BsFacebook, BsLinkedin, BsTwitter, BsStackOverflow, BsGoogle, BsGithub, BsYoutube } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsFacebook, BsYoutube, BsWebsite } from "react-icons/bs";
 const FooterComponent = ()=>{
     
     return (
@@ -16,13 +16,9 @@ const FooterComponent = ()=>{
                             <h3 className='head_3'>Follow us :- </h3>
                             
                             <ul className='socialIconsList'>
+                      
                         <li>
-                            <a rel="noreferrer" href="https://www.facebook.com/codeadictor/" target="_blank">
-                                <BsFacebook />
-                            </a>
-                        </li>
-                        <li>
-                            <a rel="noreferrer" href="https://www.linkedin.com/in/codeadictor-pranshu/" target="_blank">
+                            <a rel="noreferrer" href="https://www.linkedin.com/in/codeadictor-pranshu" target="_blank">
                                 <BsLinkedin />
                             </a>
                         </li>
@@ -33,9 +29,21 @@ const FooterComponent = ()=>{
                                 <BsGithub />
                             </a>
                         </li>
+
+                          <li>
+                            <a rel="noreferrer" href="https://www.facebook.com/codeadictor" target="_blank">
+                                <BsFacebook />
+                            </a>
+                        </li>
+        
                         <li>
                             <a rel="noreferrer" href="https://www.youtube.com/@Supportive_Soul" target="_blank">
                                 <BsYoutube />
+                            </a>
+                        </li> 
+                         <li>
+                            <a rel="noreferrer" href="https://codeadictor-pranshu.netlify.app/" target="_blank">
+                                <BsWebsite />
                             </a>
                         </li> 
                         
