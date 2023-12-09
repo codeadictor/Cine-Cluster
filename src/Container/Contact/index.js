@@ -7,10 +7,10 @@ import { BsFacebook, BsLinkedin, BsGithub, BsYoutube} from "react-icons/bs";
 import './style.css';
 const  ContactContainer = ()=>{
     const myData = [
-        {name:'Linkedin', link:'https://www.linkedin.com/in/codeadictor-pranshu/', text:'Follow to my linkedin.'},
+        {name:'Linkedin', link:'https://www.linkedin.com/in/codeadictor-pranshu', text:'Follow to my linkedin.'},
         {name:'GitHub', link:'https://github.com/codeadictor', text:'Follow to my github account.'},
          {name:'Facebook', link:'https://codeadictor-pranshu.netlify.app', text:'Checkout my website.' },
-         {name:'Facebook', link:'https://www.facebook.com/codeadictor/', text:'Follow to my facebook.' },
+         {name:'Facebook', link:'https://www.facebook.com/codeadictor', text:'Follow to my facebook.' },
         {name:'YouTube', link:'https://www.youtube.com/@Supportive_Soul', text:'Follow to my youtube channel.'},
         {name:'Email', link:'mailto:codeadictorpranshu007@gmail.com',  text:'write to me a mail'}
     ]
@@ -27,11 +27,7 @@ const  ContactContainer = ()=>{
             <Row>
                 <Col className='conectIcon'>
                     <ul className='socialIconsList'>
-                        <li>
-                            <a rel="noreferrer" href="https://www.facebook.com/codeadictor/" target="_blank">
-                                <BsFacebook />
-                            </a>
-                        </li>
+                       
                         <li>
                             <a rel="noreferrer" href="'https://www.linkedin.com/in/codeadictor-pranshu/" target="_blank">
                                 <BsLinkedin />
@@ -45,6 +41,13 @@ const  ContactContainer = ()=>{
                                 <BsGithub />
                             </a>
                         </li>
+
+                           <li>
+                            <a rel="noreferrer" href="https://www.facebook.com/codeadictor/" target="_blank">
+                                <BsFacebook />
+                            </a>
+                        </li>
+        
                         <li>
                             <a rel="noreferrer" href="https://www.youtube.com/@Supportive_Soul" target="_blank">
                                 <BsYoutube />
