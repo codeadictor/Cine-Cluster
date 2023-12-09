@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './style.css';
 
-import { BsLinkedin, BsGithub, BsFacebook, BsYoutube, BsWebsite } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsFacebook, BsYoutube} from "react-icons/bs";
 const FooterComponent = ()=>{
     
     return (
