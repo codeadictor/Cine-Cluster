@@ -41,11 +41,7 @@ const FooterComponent = ()=>{
                                 <BsYoutube />
                             </a>
                         </li> 
-                         <li>
-                            <a rel="noreferrer" href="https://codeadictor-pranshu.netlify.app/" target="_blank">
-                                <BsWebsite />
-                            </a>
-                        </li> 
+                        
                         
                     </ul>
                             
